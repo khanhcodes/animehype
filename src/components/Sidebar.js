@@ -5,10 +5,10 @@ function Sidebar({ topAnime }) {
         <div>
             <aside>
                 <nav>
-                    <h3>Top Anime</h3>
+                    <h3>Top Anime (by popularity)</h3>
                     {topAnime.map(anime => (
                         <a 
-                        href="#" 
+                        href={ anime.url} 
                         target="_blank"
                         key = {anime.mal_id}
                         rel="noreferrer">
