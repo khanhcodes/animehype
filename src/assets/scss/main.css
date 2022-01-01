@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif, 'Fira Sans';
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  color: #707070;
+  font-size: 56px;
+  font-weight: 400px;
+  text-align: center;
+  font-family: Bakbak One;
+  padding-bottom: 10px;
+}
+
+header h1 strong {
+  color: black;
+  font-family: Bakbak One;
+}
+
+header h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #5c5b5b;
+}
+
+.content-wrap aside nav h3 {
+  font-size: 15px;
+}
+
+.content-wrap aside nav a {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
