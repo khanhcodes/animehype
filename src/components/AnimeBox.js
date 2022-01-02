@@ -6,12 +6,13 @@ function AnimeBox({anime}) {
             <a 
                 href={anime.url}
                 target="_blank"
-                rel="nonreferrer">
+                rel="noreferrer">
                 
                 <figure>
                     <img 
-                        src={anime.img_url}
-                        alt="Anime Image" />
+                        src={anime.image_url}
+                        alt="Anime" />
+                    
                 </figure>
                 <h3>{ anime.title }</h3>
             </a>
